@@ -1,14 +1,11 @@
-  csc340API   
+csc340API
 
+Assignment for a basic REST API with Java, SpringBoot, Maven.
 
-Project Name: Dog API Spring Boot Project
-Description: A Spring Boot application that connects to Dog CEO's Dog API to fetch random dog images.
-
-How to Run: Include Maven commands ( mvn spring-boot:run)
-API Endpoints (Test with POSTMAN)
-
-GET Requests
-
-http://localhost:8080/hello - Returns a simple greeting.
-
-http://localhost:8080/greeting?name=jane - Returns a personalized greeting.
+Clone the project (or download zip) and open it in IntelliJ.
+MAC OS users may need to change the permissions (chmod -R 777 path/to/project/folder in your terminal) for the project folder after they clone or download this repo.
+Make sure jdk versions match.
+Run the main method.
+On POSTMAN:
+http://localhost:8080/breeds (GET)
+http://localhost:8080/random-dog (GET)
