@@ -14,11 +14,6 @@ public class RestAPIController {
         return dogBreed;
     }
 
-    /**
-     * Get random dog image.
-     *
-     * @return URL of random dog image.
-     */
     @GetMapping("/random-dog")
     public DogResponse getRandomDog() {
         RestTemplate restTemplate = new RestTemplate();
